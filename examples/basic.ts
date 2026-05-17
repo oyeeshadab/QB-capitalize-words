@@ -1,4 +1,8 @@
-import { capitalizeWords, capitalizeWordsSimple, capitalizeWordsUnicode } from '../src/index';
+import {
+  capitalizeWords,
+  capitalizeWordsSimple,
+  capitalizeWordsUnicode,
+} from '@oye_shadab/capitalize-words';
 
 // Basic usage
 console.log(capitalizeWords('hello world')); // Hello World
