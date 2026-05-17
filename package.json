@@ -1,5 +1,5 @@
 {
-  "name": "capitalize-words",
+  "name": "@oye_shadab/capitalize-words",
   "version": "1.0.5",
   "description": "Capitalize the first letter of each word in a string with TypeScript support.",
   "main": "dist/index.js",
