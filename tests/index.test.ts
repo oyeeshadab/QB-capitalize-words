@@ -4,7 +4,7 @@ import {
   capitalizeWordsSimple,
   capitalizeWordsUnicode,
   isValidCapitalizeInput,
-} from '../package/src/index';
+} from '../src/index';
 
 describe('capitalizeWords', () => {
   it('should capitalize basic words', () => {
