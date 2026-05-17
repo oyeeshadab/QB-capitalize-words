@@ -1,8 +1,3 @@
-## Complete Updated README (Unscoped Version)
-
-Here's your README updated for unscoped installation:
-
-````markdown
 <div align="center">
 
 # 📝 Capitalize Words
@@ -48,4 +43,7 @@ yarn add capitalize-words
 # pnpm
 pnpm add capitalize-words
 ```
-````
+
+```
+
+```
