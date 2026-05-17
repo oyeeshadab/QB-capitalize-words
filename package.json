@@ -1,0 +1,59 @@
+{
+  "name": "@quasarbytes/capitalize-words",
+  "version": "1.0.1",
+  "description": "Capitalize the first letter of each word in a string with TypeScript support.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "prepublishOnly": "npm run build && npm test",
+    "dev": "ts-node src/index.ts",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write 'src/**/*.ts' 'tests/**/*.test.ts'"
+  },
+  "keywords": [
+    "capitalize",
+    "words",
+    "string",
+    "text",
+    "format",
+    "utility",
+    "typescript"
+  ],
+  "author": "Shadab Hussain",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oyeeshadab/QB-capitalize-words.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oyeeshadab/QB-capitalize-words/issues"
+  },
+  "homepage": "https://github.com/oyeeshadab/QB-capitalize-words#readme",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.8.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "jest": "^30.4.2",
+    "prettier": "^3.0.0",
+    "ts-jest": "^29.4.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
